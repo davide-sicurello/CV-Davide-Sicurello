@@ -37,7 +37,7 @@ function toggleExperience() {
     
     // Se sta cercando di attivare la versione completa
     if (isComplete) {
-        const password = prompt("Inserisci la password per visualizzare la versione completa:");
+        const password = prompt("Inserisci la password:");
         
         // Se password sbagliata o cancellato
         if (password !== COMPLETE_VERSION_PASSWORD) {
